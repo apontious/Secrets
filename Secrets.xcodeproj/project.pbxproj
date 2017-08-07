@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F24E0FF1F37E5720039955F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24E0FE1F37E5720039955F /* AppDelegate.swift */; };
+		4F24E1011F37E5720039955F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24E1001F37E5720039955F /* ViewController.swift */; };
+		4F24E1041F37E5720039955F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F24E1021F37E5720039955F /* Main.storyboard */; };
+		4F24E1061F37E5720039955F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F24E1051F37E5720039955F /* Assets.xcassets */; };
+		4F24E1091F37E5720039955F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F24E1071F37E5720039955F /* LaunchScreen.storyboard */; };
+		4F24E1171F37E5DD0039955F /* SAMKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4F24E1111F37E5DD0039955F /* SAMKeychain.bundle */; };
+		4F24E1181F37E5DD0039955F /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24E1131F37E5DD0039955F /* SAMKeychain.m */; };
+		4F24E1191F37E5DD0039955F /* SamKeychainLICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F24E1141F37E5DD0039955F /* SamKeychainLICENSE.txt */; };
+		4F24E11A1F37E5DD0039955F /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24E1161F37E5DD0039955F /* SAMKeychainQuery.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F24E0FB1F37E5720039955F /* Secrets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Secrets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F24E0FE1F37E5720039955F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F24E1001F37E5720039955F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F24E1031F37E5720039955F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F24E1051F37E5720039955F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F24E1081F37E5720039955F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F24E10A1F37E5720039955F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F24E1101F37E5DD0039955F /* Secrets-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Secrets-Bridging-Header.h"; sourceTree = "<group>"; };
+		4F24E1111F37E5DD0039955F /* SAMKeychain.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SAMKeychain.bundle; sourceTree = "<group>"; };
+		4F24E1121F37E5DD0039955F /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
+		4F24E1131F37E5DD0039955F /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
+		4F24E1141F37E5DD0039955F /* SamKeychainLICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SamKeychainLICENSE.txt; sourceTree = "<group>"; };
+		4F24E1151F37E5DD0039955F /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
+		4F24E1161F37E5DD0039955F /* SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychainQuery.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F24E0F81F37E5720039955F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F24E0F21F37E5720039955F = {
+			isa = PBXGroup;
+			children = (
+				4F24E0FD1F37E5720039955F /* Secrets */,
+				4F24E0FC1F37E5720039955F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F24E0FC1F37E5720039955F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F24E0FB1F37E5720039955F /* Secrets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F24E0FD1F37E5720039955F /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				4F24E0FE1F37E5720039955F /* AppDelegate.swift */,
+				4F24E1001F37E5720039955F /* ViewController.swift */,
+				4F24E1021F37E5720039955F /* Main.storyboard */,
+				4F24E1111F37E5DD0039955F /* SAMKeychain.bundle */,
+				4F24E1051F37E5720039955F /* Assets.xcassets */,
+				4F24E1121F37E5DD0039955F /* SAMKeychain.h */,
+				4F24E1131F37E5DD0039955F /* SAMKeychain.m */,
+				4F24E1151F37E5DD0039955F /* SAMKeychainQuery.h */,
+				4F24E1161F37E5DD0039955F /* SAMKeychainQuery.m */,
+				4F24E1141F37E5DD0039955F /* SamKeychainLICENSE.txt */,
+				4F24E1071F37E5720039955F /* LaunchScreen.storyboard */,
+				4F24E10A1F37E5720039955F /* Info.plist */,
+				4F24E1101F37E5DD0039955F /* Secrets-Bridging-Header.h */,
+			);
+			path = Secrets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F24E0FA1F37E5720039955F /* Secrets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F24E10D1F37E5720039955F /* Build configuration list for PBXNativeTarget "Secrets" */;
+			buildPhases = (
+				4F24E0F71F37E5720039955F /* Sources */,
+				4F24E0F81F37E5720039955F /* Frameworks */,
+				4F24E0F91F37E5720039955F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Secrets;
+			productName = Secrets;
+			productReference = 4F24E0FB1F37E5720039955F /* Secrets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F24E0F31F37E5720039955F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Andrew Pontious";
+				TargetAttributes = {
+					4F24E0FA1F37E5720039955F = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F24E0F61F37E5720039955F /* Build configuration list for PBXProject "Secrets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F24E0F21F37E5720039955F;
+			productRefGroup = 4F24E0FC1F37E5720039955F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F24E0FA1F37E5720039955F /* Secrets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F24E0F91F37E5720039955F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F24E1091F37E5720039955F /* LaunchScreen.storyboard in Resources */,
+				4F24E1191F37E5DD0039955F /* SamKeychainLICENSE.txt in Resources */,
+				4F24E1061F37E5720039955F /* Assets.xcassets in Resources */,
+				4F24E1041F37E5720039955F /* Main.storyboard in Resources */,
+				4F24E1171F37E5DD0039955F /* SAMKeychain.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F24E0F71F37E5720039955F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F24E11A1F37E5DD0039955F /* SAMKeychainQuery.m in Sources */,
+				4F24E1011F37E5720039955F /* ViewController.swift in Sources */,
+				4F24E1181F37E5DD0039955F /* SAMKeychain.m in Sources */,
+				4F24E0FF1F37E5720039955F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F24E1021F37E5720039955F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F24E1031F37E5720039955F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F24E1071F37E5720039955F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F24E1081F37E5720039955F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F24E10B1F37E5720039955F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F24E10C1F37E5720039955F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F24E10E1F37E5720039955F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Secrets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fun.Secrets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Secrets/Secrets-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4F24E10F1F37E5720039955F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Secrets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fun.Secrets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Secrets/Secrets-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F24E0F61F37E5720039955F /* Build configuration list for PBXProject "Secrets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F24E10B1F37E5720039955F /* Debug */,
+				4F24E10C1F37E5720039955F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F24E10D1F37E5720039955F /* Build configuration list for PBXNativeTarget "Secrets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F24E10E1F37E5720039955F /* Debug */,
+				4F24E10F1F37E5720039955F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F24E0F31F37E5720039955F /* Project object */;
+}
