@@ -29,7 +29,7 @@ class ViewController: UIViewController {
 	}
 
 	@IBAction func textFieldDidChange(_ sender: Any) {
-		if let text = textField.text {
+		if let text = textField.text, !text.isEmpty {
 			do {
 				try SAMKeychain.setPassword(text, forService: "MyService", account: "MyAccount")
 			} catch let error as NSError {
