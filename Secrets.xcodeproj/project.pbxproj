@@ -16,7 +16,23 @@
 		4F24E1181F37E5DD0039955F /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24E1131F37E5DD0039955F /* SAMKeychain.m */; };
 		4F24E1191F37E5DD0039955F /* SamKeychainLICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F24E1141F37E5DD0039955F /* SamKeychainLICENSE.txt */; };
 		4F24E11A1F37E5DD0039955F /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24E1161F37E5DD0039955F /* SAMKeychainQuery.m */; };
+		4FC66F141F85EDE600B49339 /* SecretsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC66EE91F85EC8F00B49339 /* SecretsTests.swift */; };
+		4FC66F151F85EDE600B49339 /* SecretsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC66EE91F85EC8F00B49339 /* SecretsTests.swift */; };
+		4FC66F161F85EFF000B49339 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24E1131F37E5DD0039955F /* SAMKeychain.m */; };
+		4FC66F171F85EFF400B49339 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24E1161F37E5DD0039955F /* SAMKeychainQuery.m */; };
+		4FC66F181F85F0F900B49339 /* SAMKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4F24E1111F37E5DD0039955F /* SAMKeychain.bundle */; };
+		4FC66F191F85F0F900B49339 /* SAMKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4F24E1111F37E5DD0039955F /* SAMKeychain.bundle */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FC66F031F85ED4D00B49339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F24E0F31F37E5720039955F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F24E0FA1F37E5720039955F;
+			remoteInfo = Secrets;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4F24E0FB1F37E5720039955F /* Secrets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Secrets.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,10 +49,29 @@
 		4F24E1141F37E5DD0039955F /* SamKeychainLICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SamKeychainLICENSE.txt; sourceTree = "<group>"; };
 		4F24E1151F37E5DD0039955F /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
 		4F24E1161F37E5DD0039955F /* SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychainQuery.m; sourceTree = "<group>"; };
+		4FC66EE91F85EC8F00B49339 /* SecretsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretsTests.swift; sourceTree = "<group>"; };
+		4FC66EFE1F85ED4D00B49339 /* Secrets Hosted Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Secrets Hosted Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC66F021F85ED4D00B49339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC66F0C1F85ED6200B49339 /* Secrets Unhosted Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Secrets Unhosted Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC66F101F85ED6300B49339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4F24E0F81F37E5720039955F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC66EFB1F85ED4D00B49339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC66F091F85ED6200B49339 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				4F24E0FD1F37E5720039955F /* Secrets */,
+				4FC66EE81F85EBAA00B49339 /* SecretsTests */,
 				4F24E0FC1F37E5720039955F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				4F24E0FB1F37E5720039955F /* Secrets.app */,
+				4FC66EFE1F85ED4D00B49339 /* Secrets Hosted Tests.xctest */,
+				4FC66F0C1F85ED6200B49339 /* Secrets Unhosted Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +120,32 @@
 			path = Secrets;
 			sourceTree = "<group>";
 		};
+		4FC66EE81F85EBAA00B49339 /* SecretsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FC66EE91F85EC8F00B49339 /* SecretsTests.swift */,
+				4FC66EFF1F85ED4D00B49339 /* Secrets Hosted Tests */,
+				4FC66F0D1F85ED6300B49339 /* Secrets Unhosted Tests */,
+			);
+			path = SecretsTests;
+			sourceTree = "<group>";
+		};
+		4FC66EFF1F85ED4D00B49339 /* Secrets Hosted Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4FC66F021F85ED4D00B49339 /* Info.plist */,
+			);
+			path = "Secrets Hosted Tests";
+			sourceTree = "<group>";
+		};
+		4FC66F0D1F85ED6300B49339 /* Secrets Unhosted Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4FC66F101F85ED6300B49339 /* Info.plist */,
+			);
+			path = "Secrets Unhosted Tests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,6 +166,41 @@
 			productReference = 4F24E0FB1F37E5720039955F /* Secrets.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4FC66EFD1F85ED4D00B49339 /* Secrets Hosted Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC66F051F85ED4D00B49339 /* Build configuration list for PBXNativeTarget "Secrets Hosted Tests" */;
+			buildPhases = (
+				4FC66EFA1F85ED4D00B49339 /* Sources */,
+				4FC66EFB1F85ED4D00B49339 /* Frameworks */,
+				4FC66EFC1F85ED4D00B49339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FC66F041F85ED4D00B49339 /* PBXTargetDependency */,
+			);
+			name = "Secrets Hosted Tests";
+			productName = "Secrets Hosted Tests";
+			productReference = 4FC66EFE1F85ED4D00B49339 /* Secrets Hosted Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FC66F0B1F85ED6200B49339 /* Secrets Unhosted Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC66F111F85ED6300B49339 /* Build configuration list for PBXNativeTarget "Secrets Unhosted Tests" */;
+			buildPhases = (
+				4FC66F081F85ED6200B49339 /* Sources */,
+				4FC66F091F85ED6200B49339 /* Frameworks */,
+				4FC66F0A1F85ED6200B49339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Secrets Unhosted Tests";
+			productName = "Secrets Unhosted Tests";
+			productReference = 4FC66F0C1F85ED6200B49339 /* Secrets Unhosted Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -115,6 +214,15 @@
 					4F24E0FA1F37E5720039955F = {
 						CreatedOnToolsVersion = 8.3.2;
 						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					4FC66EFD1F85ED4D00B49339 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F24E0FA1F37E5720039955F;
+					};
+					4FC66F0B1F85ED6200B49339 = {
+						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -133,6 +241,8 @@
 			projectRoot = "";
 			targets = (
 				4F24E0FA1F37E5720039955F /* Secrets */,
+				4FC66EFD1F85ED4D00B49339 /* Secrets Hosted Tests */,
+				4FC66F0B1F85ED6200B49339 /* Secrets Unhosted Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -150,6 +260,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4FC66EFC1F85ED4D00B49339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC66F181F85F0F900B49339 /* SAMKeychain.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC66F0A1F85ED6200B49339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC66F191F85F0F900B49339 /* SAMKeychain.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -164,7 +290,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4FC66EFA1F85ED4D00B49339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC66F141F85EDE600B49339 /* SecretsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC66F081F85ED6200B49339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC66F151F85EDE600B49339 /* SecretsTests.swift in Sources */,
+				4FC66F161F85EFF000B49339 /* SAMKeychain.m in Sources */,
+				4FC66F171F85EFF400B49339 /* SAMKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FC66F041F85ED4D00B49339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F24E0FA1F37E5720039955F /* Secrets */;
+			targetProxy = 4FC66F031F85ED4D00B49339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4F24E1021F37E5720039955F /* Main.storyboard */ = {
@@ -232,7 +384,9 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Secrets/Secrets-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -275,7 +429,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Secrets/Secrets-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -287,12 +443,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Secrets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fun.Secrets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Secrets/Secrets-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -302,11 +457,54 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Secrets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fun.Secrets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Secrets/Secrets-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4FC66F061F85ED4D00B49339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SecretsTests/Secrets Hosted Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fun.Secrets-Hosted-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Secrets.app/Secrets";
+			};
+			name = Debug;
+		};
+		4FC66F071F85ED4D00B49339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SecretsTests/Secrets Hosted Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fun.Secrets-Hosted-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Secrets.app/Secrets";
+			};
+			name = Release;
+		};
+		4FC66F121F85ED6300B49339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SecretsTests/Secrets Unhosted Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fun.Secrets-Unhosted-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FC66F131F85ED6300B49339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SecretsTests/Secrets Unhosted Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fun.Secrets-Unhosted-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -329,6 +527,25 @@
 				4F24E10F1F37E5720039955F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC66F051F85ED4D00B49339 /* Build configuration list for PBXNativeTarget "Secrets Hosted Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC66F061F85ED4D00B49339 /* Debug */,
+				4FC66F071F85ED4D00B49339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC66F111F85ED6300B49339 /* Build configuration list for PBXNativeTarget "Secrets Unhosted Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC66F121F85ED6300B49339 /* Debug */,
+				4FC66F131F85ED6300B49339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
